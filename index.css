@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
+
 *
 {
     margin:0px;
@@ -10,7 +12,7 @@
     /* border:1px solid darkmagenta */
 }
 
-.navbar
+.navbar,.footter_nav
 {
     display: flex;
     justify-content: space-between;
@@ -21,12 +23,11 @@
 {
     display: flex;
     align-items: center;
-    font-family: 'Fraunces', serif;
-}
+font-family: 'Antic', sans-serif;}
 .nav_name
 {
     font-size: 25px;
-    font-family: 'Fraunces', serif;
+    font-family: 'Antic', sans-serif;
     color:#333D4B;
     letter-spacing: 10px;
 }
@@ -36,8 +37,7 @@
     color: #67706D;
     margin-left: 43px;
     font-size: 14px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 600;
+    font-family: 'Antic', sans-serif;    font-weight: 600;
 }
 .elements:hover
 {
@@ -71,14 +71,13 @@
 .poster_detail h2{
     color:black; 
     font-size:40px;
-    font-family: 'Fraunces', serif;
-    font-weight:900;
+    font-family: 'Antic', sans-serif;    
 }
 .poster_detail p{
     color:black;
     font-size:17.5px; 
     padding-top: 25px;
-    font-family: 'Dosis', sans-serif; 
+    font-family: 'Antic', sans-serif; 
     font-weight: lighter;
 }
 .poster_button
@@ -91,7 +90,7 @@
     font-size: 18px;
     border: 0px;
     margin-top:50px;
-    font-family: 'Fraunces', serif;
+    font-family: 'Antic', sans-serif;
     font-weight: 600;
 }
 .poster_button:hover
@@ -152,10 +151,11 @@
     /* color: rgba(242, 0, 255, 0.421); */
     padding-top: 15px;
     color:white;
-    
+    font-family: 'Antic', sans-serif;
 }
 .web_text h2 , .app_text h2{
     color: white;
+    font-family: 'Antic', sans-serif;
 }
 .web_text a svg , .app_text a svg
 {
@@ -193,4 +193,136 @@
 .graphic:hover{
     filter: none;
 }
+.detail
+{
+    /* border: 1px solid darkgoldenrod; */
+    display: flex;
+    flex-direction: column;
+    margin-top:160px;
+}
+.detail_contanier
+{
+    /* border: 1px solid darkorange; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.passionate_contanier,.resourceful_contanier,.friendly_contanier
+{
+    /* border: 1px solid darkcyan; */
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    align-items: center;
+    text-align: center;
+}
+.passionate_img
+{
+    /* border: 1px solid darkmagenta; */
+    width:310px;
+}
+.passionate_img img{
+    width:310px;
+    height:300px;
+    border-radius: 50%;
+}
+.passionate_text h2
+{
+    letter-spacing: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Antic', sans-serif;
+}
+.passionate_text p{
+    font-family: 'Antic', sans-serif;
+}
+.tolk
+{
+    /* border: 1px solid darkgrey; */
+    display: flex;
+    flex-direction: column;
+    background: url(./img/tolk_background_img.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 260px;
+    border-radius: 10px;
+    position: relative;
+    top:120px
 
+}   
+.tolk_contanier
+{
+    /* border: 1px solid darkolivegreen; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 260px;
+}
+.tolk_text
+{
+    width: 32%;
+}
+.tolk_text h2{
+    color: white;
+    font-size: 44px;
+    word-spacing: 8px;
+    padding-bottom: 25px;
+    font-family: 'Antic', sans-serif;
+}
+.tolk_text p
+{
+    color: white;
+    font-family: 'Antic', sans-serif;
+}
+.tolk_button
+{
+    width:30%;
+}
+.tolk_button button
+{
+    float: right;
+    width:150px;
+    padding: 17px;
+    background-color: white;
+    border-radius: 5px;
+    border: 0;
+    font-family: 'Antic', sans-serif;
+}
+.footter
+{
+    border:1px solid darkkhaki;
+    background-color: #1D1D1F;
+}
+.footter_contanier
+{
+    border: 1px solid darkred;
+    padding-right: 125px;
+    padding-top: 100px;
+    padding-left:  125px;
+}
+.footter_contanier hr
+{
+    border-top :0 none white ;
+}
+.footter_description
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+.office_Add,.contact
+{
+    color: white;
+    width:300px;
+    font-family: 'Antic', sans-serif;
+}
+.media
+{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-evenly;
+}
