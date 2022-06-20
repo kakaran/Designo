@@ -287,7 +287,13 @@ font-family: 'Antic', sans-serif;}
     background-color: white;
     border-radius: 5px;
     border: 0;
+    cursor: pointer;
     font-family: 'Antic', sans-serif;
+}
+.tolk_button button:hover
+{
+    background-color: black;
+    color: white;
 }
 .footter
 {
